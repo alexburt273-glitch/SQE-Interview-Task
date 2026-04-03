@@ -1,4 +1,4 @@
-// tests/shopping.spec.js
+// playwritghtTests/shopping.spec.js
 
 import { test, expect } from '../utils/testHooks';
 import { LoginPage } from '../pages/loginPage';
