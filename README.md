@@ -78,7 +78,7 @@ npx playwright show-report
 * Separation of concerns:
 
   * `pages/` - UI interactions
-  * `tests/` - test logic
+  * `tests/` - test logic and test scenarios
   * `utils/` - hooks
 
 ### Key Design Decisions
@@ -87,14 +87,15 @@ npx playwright show-report
     - Test locators used due to availability, however possible to use more user visable locators
         for a more representative test 
 * Centralised test hooks for diagnostics
-* Minimal abstraction to maintain readability
+* Minimal abstraction to help with readability and maintanence
 
 ---
 
 ## Reliability Strategy
 
-* No hard-coded waits (`sleep`)
+* Avoid hard-coded waits (`sleep`)
 * Playwright auto-waiting leveraged
+    - Can be alterered in playwright.config.js
 * Stable selectors using `data-test`
 * Defensive checks for page readiness
 
