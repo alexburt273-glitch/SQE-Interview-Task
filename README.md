@@ -125,7 +125,7 @@ A GitHub Actions pipeline is included which:
 
 ## Test Tagging & Selection
 
-* `@smoke` → critical path tests
+* `@smoke` - critical path tests
 * Enables fast feedback in CI
 
 ---
