@@ -23,7 +23,7 @@ jobs:
         run: |
           cd playwright-js
           npm install
-          npx playwright install --with-deps
+          npx playwright install
 
       - name: Run Playwright tests (smoke only)
         run: |
