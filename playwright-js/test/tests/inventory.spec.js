@@ -1,3 +1,5 @@
+// playwright-js/inventory.spec.js
+
 import { test, expect } from '../utils/testHooks';
 import { LoginPage } from '../pages/LoginPage';
 import { InventoryPage } from '../pages/InventoryPage';
