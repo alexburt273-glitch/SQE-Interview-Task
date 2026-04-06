@@ -1,6 +1,6 @@
 // playwritghtTests/auth.spec.js
 import { test, expect } from '../utils/testHooks';
-import { LoginPage } from '../pages/loginPage';
+import { LoginPage } from '../pages/LoginPage';
 
 test.describe('Authentication @smoke', () => {
 

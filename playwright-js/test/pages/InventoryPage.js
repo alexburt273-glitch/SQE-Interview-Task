@@ -7,7 +7,7 @@ export class InventoryPage {
     this.inventoryContainer = page.locator('.inventory_list');
     this.cartBadge = page.locator('.shopping_cart_badge');
     this.cartLink = page.locator('.shopping_cart_link');
-    this.sortDropdown = page.locator('[data-test="product_sort_container"]');
+    this.sortDropdown = page.locator('[data-test="product-sort-container"]');
     this.inventoryItems = page.locator('.inventory_item');
     this.itemPrices = page.locator('.inventory_item_price');
   }
@@ -40,8 +40,10 @@ export class InventoryPage {
     await this.cartLink.click();
   }
 
+
   async sortBy(optionValue) {
     await this.sortDropdown.selectOption(optionValue);
+
   }
 
   async getItemPrices() {

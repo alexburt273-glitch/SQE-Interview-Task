@@ -1,7 +1,7 @@
 // playwritghtTests/shopping.spec.js
 
 import { test, expect } from '../utils/testHooks';
-import { LoginPage } from '../pages/loginPage';
+import { LoginPage } from '../pages/LoginPage';
 import { InventoryPage } from '../pages/InventoryPage';
 import { CheckoutPage } from '../pages/CheckoutPage';
 import { CartPage } from '../pages/CartPage';
